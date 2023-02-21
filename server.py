@@ -21,6 +21,6 @@ def repeat(number, message):
 @app.errorhandler(404)
 def not_found_handler(e):
     return "Sorry! No response. Try again."
-if __name__:
+if __name__ == "__main__":
     app.run(debug = True, port = 5000)
 
